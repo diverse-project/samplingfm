@@ -1,6 +1,14 @@
-# Sat sampling for Feature Models
+# Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet?
 
-## Installation
+Uniform or near-uniform generation of solutions for large satisfiability formulas is a problem of theoretical and practical interest for the testing community. Recent works proposed two algorithms (namely Unigen and QuickSampler) for reaching a good compromise between execution time and uniformity guarantees, with empirical evidence on SAT benchmarks. 
+In the context of highly-configurable software systems (e.g., Linux), it is unclear whether Unigen and QuickSampler can scale and sample uniform software configurations. We investigate this question in an ICST'19 paper.  
+ This repository aims to provide all feature models of the benchmarks, Python scripts to execute experiments, Python scripts to compute plots, figures, and statistics of this paper as well as additional ones, and instructions to reuse our work. 
+
+## Contributors 
+
+Quentin Plazar, Mathieu Acher, Gilles Perrouin, Xavier Devroey and Maxime Cordy
+
+## Installation
 
 You will need to product the following binaries, and move them to the `scripts/` directory, to run the experiments :
 
@@ -25,7 +33,7 @@ sudo make install
 
 Important note : Unigen will probably not run on Mac OS
 
-## Using the python scripts
+## Using the python scripts
 
 Several python scripts to run experiments are provided, they are of three kinds :
 
