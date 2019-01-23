@@ -1,0 +1,135 @@
+1 JHipster
+ obs : 1.0
+ th  : 1.0
+2 Hibernate2ndLvlCache
+ obs : 0.573416553984
+ th  : 0.647166361974
+3 HazelCast
+ obs : 0.260416759947
+ th  : 0.323583180987
+4 EhCache
+ obs : 0.312999794038
+ th  : 0.323583180987
+5 Server
+ obs : 0.0969499691057
+ th  : 0.0517976843388
+6 MicroserviceApplication
+ obs : 0.0638885655184
+ th  : 0.0347349177331
+7 UaaServer
+ obs : 0.0330614035873
+ th  : 0.0170627666057
+8 BackEnd
+ obs : 1.0
+ th  : 1.0
+9 Gradle
+ obs : 0.517560512577
+ th  : 0.5
+10 Maven
+ obs : 0.482439487423
+ th  : 0.5
+11 Generator
+ obs : 1.0
+ th  : 1.0
+12 Authentication
+ obs : 1.0
+ th  : 1.0
+13 SocialLogin
+ obs : 0.237326611206
+ th  : 0.268129189519
+14 Database
+ obs : 0.998746317307
+ th  : 0.999390615478
+15 SpringWebSockets
+ obs : 0.446987131843
+ th  : 0.474101157831
+16 Libsass
+ obs : 0.463011883121
+ th  : 0.474101157831
+17 ClusteredSession
+ obs : 0.495728523968
+ th  : 0.474101157831
+18 InternationalizationSupport
+ obs : 0.483966293845
+ th  : 0.5
+19 Docker
+ obs : 0.544693788002
+ th  : 0.5
+20 TestingFrameworks
+ obs : 1.0
+ th  : 1.0
+21 Production
+ obs : 0.937790473803
+ th  : 0.970749542962
+22 MySQL
+ obs : 0.319433872715
+ th  : 0.323583180987
+23 MariaDB
+ obs : 0.30214200643
+ th  : 0.323583180987
+24 PostgreSQL
+ obs : 0.316214594658
+ th  : 0.323583180987
+25 SQL
+ obs : 0.937790473803
+ th  : 0.970749542962
+26 Cassandra
+ obs : 0.0221140672153
+ th  : 0.0106642291286
+27 MongoDB
+ obs : 0.0388417762893
+ th  : 0.0179768433882
+28 Development
+ obs : 0.937790473803
+ th  : 0.970749542962
+29 H2
+ obs : 0.544801246519
+ th  : 0.647166361974
+30 PostgreSQLDev
+ obs : 0.120604275058
+ th  : 0.107861060329
+31 MariaDBDev
+ obs : 0.130965067027
+ th  : 0.107861060329
+32 MySQLDev
+ obs : 0.141419885198
+ th  : 0.107861060329
+33 DiskBased
+ obs : 0.288324632178
+ th  : 0.323583180987
+34 InMemory
+ obs : 0.25647661434
+ th  : 0.323583180987
+35 ElasticSearch
+ obs : 0.407661792229
+ th  : 0.485374771481
+36 HTTPSession
+ obs : 0.320302495724
+ th  : 0.270566727605
+37 OAuth2
+ obs : 0.143497416518
+ th  : 0.134064594759
+38 Uaa
+ obs : 0.247588899535
+ th  : 0.170932358318
+39 JWT
+ obs : 0.288611188223
+ th  : 0.424436319317
+40 Protractor
+ obs : 0.903050030894
+ th  : 0.948202315661
+41 Gatling
+ obs : 1.0
+ th  : 1.0
+42 Cucumber
+ obs : 1.0
+ th  : 1.0
+43 Application
+ obs : 0.903050030894
+ th  : 0.948202315661
+44 MicroserviceGateway
+ obs : 0.251587251838
+ th  : 0.273004265692
+45 Monolithic
+ obs : 0.651462779056
+ th  : 0.67519804997

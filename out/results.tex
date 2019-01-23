@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+
+\begin{document}
+\section{Comparison Table}
+
+\hspace{-3cm}
+\resizebox{18cm}{!}{
+\input{comparison_table.tex}
+}
+
+\section{Distribution Figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110.png}
+    \caption{blasted case 110}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_59.png}
+    \caption{blasted case 59}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_59_1.png}
+    \caption{blasted case 59.1}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_64.png}
+    \caption{blasted case 64}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_s298.png}
+    \caption{s298}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_JHipster.png}
+    \caption{JHipster}
+\end{figure}
+
+\clearpage
+
+\section{Impact du subsampling}
+
+On trace la courbe de distribution de la formule \texttt{blasted\_case\_110} pour différents paramètres de subsampling. Initialement 5 milions de samples sont tirés. On en tire des sous échantillons aléatoirement parmi ces solutions, de tailles successives 2 millions, 1 million, 500'000, 200'000 et 100'000. On compare les figures de distribution obtenues.
+
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110.png}
+    \caption{Pas de sous-echantillonage}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110_2M.png}
+    \caption{2 millions de sous-échantillons}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110_1M.png}
+    \caption{1 million de sous-échatillons}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110_500K.png}
+    \caption{500'000 sous-échatillons}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110_200K.png}
+    \caption{200'000 sous-échatillons}
+\end{figure}
+\begin{figure}[!h]
+    \includegraphics[scale=0.7]{DistributionFigures/Figure_case_110_100K.png}
+    \caption{100'000 sous-échatillons}
+\end{figure}
+
+\clearpage
+
+\section{Feature Models}
+
+\hspace{-3cm}
+\resizebox{18cm}{!}{
+\input{fm_comparison.tex}
+}
+
+\section{FMEasy}
+
+\hspace{-3cm}
+\resizebox{18cm}{!}{
+\input{fmeasy_comparison.tex}
+}
+
+\end{document}
